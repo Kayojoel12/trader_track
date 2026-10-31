@@ -47,3 +47,19 @@ app.*.map.json
 # Widget Preview related
 .widget_preview/
 .vscode/launch.json
+
+# ------------------------------------------------------------------
+# 🚨 FICHIERS SPÉCIFIQUES À VOTRE PROJET (SUPABASE & SÉCURITÉ) 🚨
+# ------------------------------------------------------------------
+
+# Dossier temporaire de la CLI Supabase (contient des infos de connexion)
+supabase/.temp/
+
+# Si vous utilisez des fichiers d'environnement pour les clés secrètes
+.env
+.env.local
+.env.*.local
+
+# Fichiers générés par Android/Gradle (évite les fichiers lourds)
+android/.gradle/
+android/local.properties
